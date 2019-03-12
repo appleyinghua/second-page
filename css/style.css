@@ -1,0 +1,295 @@
+			/*注释*/
+			/*引入的字体url需要注意，相对位置决定url的写法。*/
+			@font-face { 
+        	 	font-family:futura; 
+        		 src: url('../fonts/HPFuturaBook-Bold.otf'); 
+    		} 
+    		@font-face {
+    			font-family: figure;
+    			src:url('../fonts/HPFuturaBook.otf');
+    		}
+     		* {
+     			font-family: figure;
+     			margin: 0;
+     			padding: 0;
+     		}
+     		.futura {
+     			font-family: futura;
+     		}
+			.container {
+				margin: 0;
+				padding: 0;
+			}
+			.max {
+				position: absolute;
+				left: 40px;
+				top: 65px;
+				font-size: 36px;
+			}
+			.color {
+				color:  #7bb43d;
+			}
+			.header {
+				margin-top: 80px;
+				margin-left: 390px;
+				position: relative;
+				font-size: 18px;
+			}
+			.header ul {
+				list-style: none;
+			}
+			.header ul li {
+				float: left;
+				margin-right: 48px;
+			}
+			.support {
+				margin-left: 170px;
+			}
+			.navigator{
+				width: 80px;
+				display: inline-block;
+				background-color: rgb(230,227,228);
+	        }
+	        .audio{
+	        	position: relative;
+	        	margin-top: 70px;
+	        }
+	        .audio video {
+	        	width: 1100px;
+	        	height: 614px;
+	        }
+	        .scrolldown {
+	        	position: absolute;
+	        	left: 1160px;
+	        	top: 680px;
+	        }
+	        .content {
+	        	position: relative;
+	        	margin-top: 150px;
+	        }
+	        .content .txt {
+				margin-left: 440px;
+				margin-bottom: 13px;
+	        }
+	        .content .line {
+				border: 3px solid black;
+				width: 240px;
+				margin-left: 350px;
+	        }
+	        .backup {
+	        	position: absolute;
+	        	left: 1102px;
+	        	top: 450px;
+	        }
+	        .content .text {
+				margin-left: 480px;
+	        }
+	        .text p {
+	        	display: block;
+	        	margin-top: 10px;
+	        	margin-bottom: 10px;
+	        }
+	        .green {
+	        	color: #7bb43d;
+	        }
+	        .lab {
+	        	margin-top: 25px;
+	        	position: relative;
+	        }
+	        .lab img {
+	        	display: inline-block;
+				margin-left: 110px;
+				width:300px; 
+				height:610px;
+	        }
+	        .lab .article {
+	        	position: absolute;
+	        	left: 500px;
+	        	top:30px;
+	        }
+	        .article .green {
+	        	margin-top: -20px;
+	        }
+	        .article .third {
+	        	margin-top: -30px;
+	        }
+	        .apply {
+	        	position: absolute;
+				left: 500px;
+				top: 540px;
+	        }
+	        .apply span {
+	        	margin-right: -90px;
+	        	background-color: lightgray;
+	        }
+	        .apply img {
+	        	width: 30px;
+	        	height: 20px;
+	        	opacity: 0.3;
+	        }
+			.all_hr {
+				position: relative;
+				width: 90%;
+				margin: 0 auto;
+				margin-top: 150px;
+				margin-bottom: 100px;
+				border: 1px solid lightgray;
+			}
+			.all_hr_1 {
+				position: relative;
+				width: 31.5%;
+				margin-left: 74px;
+				border: 1px solid lightgray;
+			}
+			.two {
+				text-align: center;
+				margin-top: 85px;
+				margin-bottom: 120px;
+				font-size: 30px;
+			}
+			.content1 {
+				position: relative;
+				margin-bottom: 80px;
+				height: 520px;
+			}
+			.event_line {
+				width: 202px;
+				position: absolute;
+				left: 180px;
+				border: 3px solid black;
+			}
+			.event {
+				margin-left: 260px;
+				margin-bottom: 10px;
+			}
+			div.first {
+				margin-top: 20px;
+				margin-left: 292px;
+			}
+			div.second {
+				margin-top: 10px;
+				margin-left: 200px;
+				margin-bottom: 30px;
+			}
+			.content1 .text1 {
+				position: absolute;
+				left: 50px;
+				top: 20px;
+			}
+			.content1 img {
+				width: 800px;
+				height: 480px;
+				float: right;
+			}
+			.pre1 p {
+				width: 390px;
+				height: 300px;
+				text-align: right;
+				line-height: 22px;
+			}
+			.apply1 img {
+				width: 30px;
+				height: 20px;
+				opacity: 0.3;
+				position: absolute;
+				left: 240px;
+			}
+			.apply1 span {
+				margin-left: 286px;
+				background-color: lightgray;
+
+			}
+			.shadow {
+				width: 60px;
+				height: 10px;
+				position: absolute;
+				margin-top: -35px;
+				background-color: #7bb43d;
+				opacity: 0.8;
+			}
+		  	h1.futura {
+		  		margin:80px 0 ;
+		  		text-align: center;
+		  		font-size: 36px;
+		  	}
+		  	.bottom {
+		  		margin-top: 350px;
+		  		position: relative;
+		  		width: 100%;
+		  		height: 570px;
+		  		background-color: black;
+		  	}
+		  	.bottom img {
+		  		width: 700px;
+		  		height: 580px;
+		  		bottom: 250px;
+		  	    position: absolute;
+		  	}
+			.h2 {
+				margin-top: 100px;
+				padding-left: 660px;
+				font-size: 20px;
+				margin-bottom: 1px;
+			}
+			.btn {
+				position: absolute;
+				right: 100px;
+				bottom: 230px;
+				width: 200px;
+				height: 30px;
+				box-shadow: 1px 2px 2px 2px lightgray inset;
+				background-color: white;
+			}
+			.btn span {
+				float: right;
+				padding-right: 2px;
+				padding-top: 3px;
+			}
+			.h2_1 {
+				margin-top: 1px;
+				font-size: 20px;
+				margin-bottom: 100px;
+			}
+			.about .h2 {
+				padding-left: 660px;
+				font-size: 20px;
+			}
+			.about .span1 {
+				color: #7bb43d;
+			}
+			.about .hr {
+				width: 200px;
+				border:3px solid black;
+				margin-bottom: 100px;
+				margin-left: 525px;
+			}
+			.subscribe {
+				color: white;
+				position:absolute;
+				right: 100px;
+				bottom: 180px;
+			}
+			.subscribe .hr {
+				width: 200px;
+				margin-left: 550px;
+				border:1px solid white;
+			}
+			.subscribe .h2_1 {
+				padding-left: 650px;
+			}
+			.footer {
+				position: absolute;
+				left: 100px;
+				bottom: 100px;
+			}
+			#ul {
+				list-style: none;
+				margin-left: 710px;
+				color: white;
+			}
+			#ul li {
+				float: left;
+				font-size: 12px;
+				letter-spacing: .1em;
+				margin-right: 30px;
+			}		
